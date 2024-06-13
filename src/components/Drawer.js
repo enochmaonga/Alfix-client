@@ -10,17 +10,10 @@ import ListItemText from "@mui/material/ListItemText";
 import {
   Accessible,
   BookOnline,
-  CollectionsBookmark,
-  Edit,
+  Dashboard,
   FeaturedPlayList,
-  Feedback,
-  Help,
   Home,
   HomeRepairService,
-  PermMedia,
-  Send,
-  UploadFile,
-  Work,
 } from "@mui/icons-material";
 import NextLink from "next/link";
 import Image from "next/image";
@@ -50,6 +43,14 @@ const LeftDrawer = () => {
       </Grid>
 
       <List>
+        <NextLink href="/dashboard">
+          <ListItemButton sx={{ color: "white", textDecoration: "none" }}>
+            <ListItemIcon sx={{ color: "white" }}>
+              <Dashboard />
+            </ListItemIcon>
+            <ListItemText primary={"Dashboard"} />
+          </ListItemButton>
+        </NextLink>
         <NextLink href="/">
           <ListItemButton sx={{ color: "white", textDecoration: "none" }}>
             <ListItemIcon sx={{ color: "white" }}>

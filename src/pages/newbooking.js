@@ -127,7 +127,7 @@ const Newbooking = () => {
   ////
   const handleDialogClose = () => {
     setDialogOpen(false);
-    router.push("/customer");
+    router.push("/booking");
   };
   ////
 

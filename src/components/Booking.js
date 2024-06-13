@@ -108,7 +108,7 @@ function Booking() {
               InputProps={{
                 startAdornment: (
                   <InputAdornment position="start">
-                    <SearchIcon style={{ fill: "blue" }} />
+                    <SearchIcon style={{ fill: "#A6ACAF" }} />
                   </InputAdornment>
                 ),
               }}
